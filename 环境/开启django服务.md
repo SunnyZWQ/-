@@ -1,3 +1,23 @@
+## 总结
+
+    # 列出所有的conda虚拟机 
+    conda env list
+    
+    # 进入conda虚拟机
+    source activate django-learning
+
+    # 进入项目，开启server，之后可以使用web UI访问
+    cd ~
+    cd HelloWorld
+    python manage.py runserver 0.0.0.0:8000
+
+    ## 退出当前的虚拟机环境
+    deactivate
+    
+
+## 原始代码
+
+   
     [root@bishe ~]# 
     [root@bishe ~]# conda env list
     [root@bishe ~]# source activate django-learning
